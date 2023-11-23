@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main</title>
+  <style>
+    h1 {
+      text-align: center;
+    }
+    #txt_welcome {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .card_wrap {
+      display: flex;
+      justify-content: center;
+    }
+    .card {
+      text-align: center;
+      margin-right: 20px;
+    }
+    .card:last-child {
+      margin-right: 0;
+    }
+    .card_img {
+      width: 300px;
+      height: 300px;
+    }
+    .card_title {
+      font-size: 20px;
+    }
+    .card_button {
+      font-size: 25px;
+      width: 150px;
+      height: 35px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tennis Market</h1>
+  <div id="txt_welcome">
+    Welcom to Tennis market! <br>
+    Enjoy your shopping.
+    <br>
+    <br>
+    <a href="./orderlist.html">order list</a>
+  </div>
+  <div class="card_wrap">
+    <div class="card">
+      <img class="card_img" src="./img/redRacket.png" alt="레드라켓">
+      <p class="card_title">Red Racket</p>
+      <input class="card_button" type="button" value="order" onclick="alert(1)">
+    </div>
+    <div class="card">
+      <img class="card_img" src="./img/blueRacket.png" alt="블루라켓">
+      <p class="card_title">Blue Racket</p>
+      <input class="card_button" type="button" value="order" onclick="alert(2)">
+    </div>
+    <div class="card">
+      <img class="card_img" src="./img/blackRacket.png" alt="블랙라켓">
+      <p class="card_title">Black Racket</p>
+      <input class="card_button" type="button" value="order" onclick="alert(3)">
+    </div>
+  </div>
+</body>
+</html>
